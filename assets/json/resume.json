@@ -9,11 +9,11 @@
   },
   "education": [
     {
-      "institution": "Insitute of Automation, Chinese Academy of Sciences",
+      "institution": "Instiute of Automation, Chinese Academy of Sciences",
       "location": "Peking, China",
       "url": "https://ia.cas.cn/",
       "area": "Technology for Computer Applications",
-      "studyType": "PhD, supervised by Dongbin Zhao and Haoran Li", 
+      "studyType": "PhD, PhD, supervised by Prof. Dongbin Zhao and Dr. Haoran Li", 
       "startDate": "2024-09-01",
       "endDate": "2029-06-01"
     },
@@ -22,7 +22,7 @@
       "location": "Hunan Province, China",
       "url": "https://soa.csu.edu.cn/",
       "area": "Automation",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor's Degree",
       "startDate": "2020-09-01",
       "endDate": "2024-06-01",
       "rank": "1 / 243",
@@ -31,11 +31,40 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "First Prize, in AgileX Sim2Real Challenge held by ICRA 2024 commitee",
+      "date": "2024.03 - 2024.05",
+      "awarder": "IEEE International Conference on Robotics and Automation, and Institute for AI Industry Research, Tsinghua University",
+      "summary": "Developed algorithms on the OmniGibson platform for item detection and manipulation."
+    },
+    {
+      "title": "First Prize, Best Creativity Award, and BoFlow Elite AI Award in National College Embedded Chip and System Design Competition",
+      "date": "2021",
+      "awarder": "China Institute of Electronics",
+      "summary": "Completed the project titled 'Home Monitoring System for Alzheimer's Patients based on Deep Learning and IoT'. "
+    },
+    {
+      "title": "National Scholarship * 3",
+      "date": "2021-2024",
+      "awarder": "Ministry of Education of the People's Republic of China",
+      "summary": "Awarded the National Scholarship for three consecutive years, with a cumulative reward of RMB 24,000."
+    },
+    {
+      "title": "Special Grade Scholarship * 3",
+      "date": "2021-2024",
+      "awarder": "Central South University",
+      "summary": "Awarded the Special Grade Scholarship for three consecutive years, with a cumulative reward of RMB 15,000."
+    },
+    {
+      "title": "Outstanding Student Model of Central South University, 2022-2023 Academic Year",
+      "date": "2023",
+      "awarder": "Central South University",
+      "summary": "Received the prestigious honor granted to only 30 students annually from a student body of over 40,000.."
+    },
+    {
+      "title": "Outstanding Graduate of Hunan Province",
+      "date": "2024",
+      "awarder": "Hunan Provincial Department of Education",
+      "summary": "Recognized as an Outstanding Graduate, a provincial-level distinction."
     }
   ],
   "publications": [
