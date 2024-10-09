@@ -255,7 +255,7 @@ exclude:
   - _pages/about_einstein.md
   - _pages/dropdown.md
   - _pages/repositories.md
-  - _pages/publication.md
+  - _pages/publications.md
   - _pages/projects.md
   - _pages/news.md
 keep_files:
