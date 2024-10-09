@@ -70,8 +70,9 @@
   "publications": [
     {
       "name": "Generalizing Consistency Policy to Visual RL with Prioritized Proximal Experience Regularization",
-      "publisher": "Li, Haoran and Jiang, Zhennan and Chen, Yuhui and Zhao, Dongbin",
-      "summary": "NeurIPS 2024"
+      "publisher": "Haoran Li, Zhennan Jiang, Yuhui Chen, and Dongbin Zhao",
+      "summary": "NeurIPS 2024",
+      "releaseDate": "2024-09"
     }
   ],
   "languages": [
