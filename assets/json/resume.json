@@ -69,11 +69,9 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Generalizing Consistency Policy to Visual RL with Prioritized Proximal Experience Regularization",
+      "publisher": "Li, Haoran and Jiang, Zhennan and Chen, Yuhui and Zhao, Dongbin",
+      "summary": "NeurIPS 2024"
     }
   ],
   "languages": [
