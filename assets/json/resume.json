@@ -9,11 +9,20 @@
   },
   "education": [
     {
+      "institution": "Insitute of Automation, Chinese Academy of Sciences",
+      "location": "Peking, China",
+      "url": "https://ia.cas.cn/",
+      "area": "Technology for Computer Applications",
+      "studyType": "PhD, supervised by Dongbin Zhao and Haoran Li", 
+      "startDate": "2024-09-01",
+      "endDate": "2029-06-01"
+    },
+    {
       "institution": "College of Automation, Central South University",
       "location": "Hunan Province, China",
       "url": "https://soa.csu.edu.cn/",
       "area": "Automation",
-      "studyType": "PhD",
+      "studyType": "Bachelor",
       "startDate": "2020-09-01",
       "endDate": "2024-06-01",
       "rank": "1 / 243",
