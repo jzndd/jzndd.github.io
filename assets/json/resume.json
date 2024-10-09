@@ -32,37 +32,37 @@
   "awards": [
     {
       "title": "First Prize, in AgileX Sim2Real Challenge held by ICRA 2024 commitee",
-      "date": "2024.03 - 2024.05",
+      "date": "2024.03 ~ 2024.05",
       "awarder": "IEEE International Conference on Robotics and Automation, and Institute for AI Industry Research, Tsinghua University",
       "summary": "Developed algorithms on the OmniGibson platform for item detection and manipulation."
     },
     {
       "title": "First Prize, Best Creativity Award, and BoFlow Elite AI Award in National College Embedded Chip and System Design Competition",
-      "date": "2021",
+      "date": "2021.11",
       "awarder": "China Institute of Electronics",
       "summary": "Completed the project titled 'Home Monitoring System for Alzheimer's Patients based on Deep Learning and IoT'. "
     },
     {
       "title": "National Scholarship * 3",
-      "date": "2021-2024",
+      "date": "2021 ~ 2024",
       "awarder": "Ministry of Education of the People's Republic of China",
       "summary": "Awarded the National Scholarship for three consecutive years, with a cumulative reward of RMB 24,000."
     },
     {
       "title": "Special Grade Scholarship * 3",
-      "date": "2021-2024",
+      "date": "2021 ~ 2024",
       "awarder": "Central South University",
       "summary": "Awarded the Special Grade Scholarship for three consecutive years, with a cumulative reward of RMB 15,000."
     },
     {
       "title": "Outstanding Student Model of Central South University, 2022-2023 Academic Year",
-      "date": "2023",
+      "date": "2023.11",
       "awarder": "Central South University",
       "summary": "Received the prestigious honor granted to only 30 students annually from a student body of over 40,000.."
     },
     {
       "title": "Outstanding Graduate of Hunan Province",
-      "date": "2024",
+      "date": "2024.06",
       "awarder": "Hunan Provincial Department of Education",
       "summary": "Recognized as an Outstanding Graduate, a provincial-level distinction."
     }
