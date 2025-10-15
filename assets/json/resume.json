@@ -12,7 +12,7 @@
       "location": "Peking, China",
       "url": "https://ia.cas.cn/",
       "area": "Technology for Computer Applications",
-      "studyType": "PhD, supervised by Prof. Dongbin Zhao and Dr. Haoran Li", 
+      "studyType": "PhD, supervised by Prof. Dongbin Zhao and Dr. Haoran Li",
       "startDate": "2024-09-01",
       "endDate": "2029-06-01"
     },
@@ -90,25 +90,17 @@
     {
       "name": "Go (Weiqi)",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Amateur 4th dan level (Advanced amateur)",
-        "4th place in the Shantou City High School Go Men's Division"
-      ]
+      "keywords": ["Amateur 4th dan level (Advanced amateur)", "4th place in the Shantou City High School Go Men's Division"]
     },
     {
       "name": "Sports",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Including badminton, table tennis, and basketball",
-        "Only an amateur"
-      ]
+      "keywords": ["Including badminton, table tennis, and basketball", "Only an amateur"]
     },
     {
       "name": "Honor of Kings (a mobile game)",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "dan: Master"
-      ]
+      "keywords": ["dan: Master"]
     }
   ]
 }

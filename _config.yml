@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Zhennan
-middle_name: 
+middle_name:
 last_name: Jiang
 email: stjzn0410@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -208,8 +208,6 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
-
-
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
