@@ -3,38 +3,40 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@unpublished{zhang2025marssep,
+  abbr={MARS-Sep (Under Review)},
+  title={MARS-Sep: Multimodal-Aligned Reinforced Sound Separation}, 
+  author={Zhang, Zihan and Cheng, Xize and Jiang, Zhennan and Fu, Dongjie and Chen, Jingyuan and Zhao, Zhou and Jin, Tao},
+  journal={Under Review},
+  abstract={Universal sound separation faces a fundamental misalignment: models optimized for low-level signal metrics often produce semantically contaminated outputs, failing to suppress perceptually salient interference from acoustically similar sources. To bridge this gap, we introduce MARS-Sep, a reinforcement learning framework that reformulates separation as decision making. Instead of simply regressing ground-truth masks, MARS-Sep learns a factorized Beta mask policy that is optimized by a clipped trust-region surrogate with entropy regularization and group-relative advantage normalization. Concretely, we sample masks from a frozen old policy, reconstruct waveforms, and update the current policy using clipped importance ratios-yielding substantially more stable and sample-efficient learning. Multimodal rewards, derived from an audio-text-vision encoder, directly incentivize semantic consistency with query prompts. We further propose a progressive alignment scheme to fine-tune this encoder, boosting its cross-modal discriminability and improving reward faithfulness. Extensive experiments on multiple benchmarks demonstrate consistent gains in Text-, Audio-, and Image-Queried separation, with notable improvements in signal metrics and semantic quality.},
+  year={2025},
+  primaryClass={cs.LG},
+  selected={true},
+  preview={mars-sep.png},
+  url={https://arxiv.org/abs/2510.10509},
+  arxiv={2510.10509},
+  pdf={MARS_Sep.pdf},
+  html={https://mars-sep.github.io/},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@unpublished{jiang2025world4rl,
+  abbr={Under Review},
+  title={World4RL: Diffusion World Models for Policy Refinement with Reinforcement Learning for Robotic Manipulation}, 
+  author={Jiang, Zhennan and Liu, Kai and Qin, Yuxin and Tian, Shuai and Zheng, Yupeng and Zhou, Mingcai and Yu, Chao and Li, Haoran and Zhao, Dongbin},
+  journal={Under Review},
+  abstract={Robotic manipulation policies are commonly initialized through imitation learning, but their performance is limited by the scarcity and narrow coverage of expert data. Reinforcement learning can refine polices to alleviate this limitation, yet real-robot training is costly and unsafe, while training in simulators suffers from the sim-to-real gap. Recent advances in generative models have demonstrated remarkable capabilities in real-world simulation, with diffusion models in particular excelling at generation. This raises the question of how diffusion model-based world models can be combined to enhance pre-trained policies in robotic manipulation. In this work, we propose World4RL, a framework that employs diffusion-based world models as high-fidelity simulators to refine pre-trained policies entirely in imagined environments for robotic manipulation. Unlike prior works that primarily employ world models for planning, our framework enables direct end-to-end policy optimization. World4RL is designed around two principles: pre-training a diffusion world model that captures diverse dynamics on multi-task datasets and refining policies entirely within a frozen world model to avoid online real-world interactions. We further design a two-hot action encoding scheme tailored for robotic manipulation and adopt diffusion backbones to improve modeling fidelity. Extensive simulation and real-world experiments demonstrate that World4RL provides high-fidelity environment modeling and enables consistent policy refinement, yielding significantly higher success rates compared to imitation learning and other baselines.},
+  year={2025},
+  primaryClass={cs.LG},
+  selected={true},
+  preview={world4rl.png},
+  url={https://arxiv.org/abs/2509.19080},
+  arxiv={2509.19080},
+  pdf={world4rl.pdf},
+  html={https://world4rl.github.io/},
 }
 
 @article{li2024generalizingconsistencypolicyvisual,
-  abbr={CP3ER (NeurIPS 2024 Poster)},
+  abbr={NeurIPS 2024 Poster},
   title={Generalizing Consistency Policy to Visual RL with Prioritized Proximal Experience Regularization}, 
   author={Li, Haoran and Jiang, Zhennan and Chen, Yuhui and Zhao, Dongbin},
   journal={In The Thirty-eighth Annual Conference on Neural Information Processing Systems, NeurIPS2024},
@@ -50,8 +52,8 @@
   preview={cp3er.png},
 }
 
-@article{chen2024TeVIR,
-  abbr={TeVIR (Under Review)},
+@unpublished{chen2024TeVIR,
+  abbr={Under Review},
   title={TeViR: Text-to-Video Reward with Diffusion Models for Efficient Reinforcement Learning}, 
   author={Chen, Yuhui and Li, Haoran and Jiang, Zhennan and Wen, Haowei and Zhao, Dongbin},
   journal={Under Review},
@@ -60,38 +62,6 @@
   primaryClass={cs.LG},
   selected={true},
   preview={tevir.png},
-}
-
-@article{jiang2025world4rl,
-  abbr={World4RL (Under Review)},
-  title={World4RL: Diffusion World Models for Policy Refinement with Reinforcement Learning for Robotic Manipulation}, 
-  author={Jiang, Zhennan and Liu, Kai and Qin, Yuxin and Tian, Shuai and Zheng, Yupeng and Zhou, Mingcai and Yu, Chao and Li, Haoran and Zhao, Dongbin},
-  journal={Under Review},
-  abstract={Robotic manipulation policies are commonly initialized through imitation learning, but their performance is limited by the scarcity and narrow coverage of expert data. Reinforcement learning can refine polices to alleviate this limitation, yet real-robot training is costly and unsafe, while training in simulators suffers from the sim-to-real gap. Recent advances in generative models have demonstrated remarkable capabilities in real-world simulation, with diffusion models in particular excelling at generation. This raises the question of how diffusion model-based world models can be combined to enhance pre-trained policies in robotic manipulation. In this work, we propose World4RL, a framework that employs diffusion-based world models as high-fidelity simulators to refine pre-trained policies entirely in imagined environments for robotic manipulation. Unlike prior works that primarily employ world models for planning, our framework enables direct end-to-end policy optimization. World4RL is designed around two principles: pre-training a diffusion world model that captures diverse dynamics on multi-task datasets and refining policies entirely within a frozen world model to avoid online real-world interactions. We further design a two-hot action encoding scheme tailored for robotic manipulation and adopt diffusion backbones to improve modeling fidelity. Extensive simulation and real-world experiments demonstrate that World4RL provides high-fidelity environment modeling and enables consistent policy refinement, yielding significantly higher success rates compared to imitation learning and other baselines.},
-  year={2025},
-  primaryClass={cs.LG},
-  selected={true},
-  preview={world4rl.png},
-  url={https://arxiv.org/abs/2509.19080},
-  arxiv={2509.19080},
-  pdf={world4rl.pdf},
-  html={https://world4rl.github.io/},
-}
-
-@article{zhang2025marssep,
-  abbr={MARS-Sep (Under Review)},
-  title={MARS-Sep: Multimodal-Aligned Reinforced Sound Separation}, 
-  author={Zihan Zhang, Xize Cheng, Zhennan Jiang, Dongjie Fu, Jingyuan Chen, Zhou Zhao, Tao Jin},
-  journal={Under Review},
-  abstract={Universal sound separation faces a fundamental misalignment: models optimized for low-level signal metrics often produce semantically contaminated outputs, failing to suppress perceptually salient interference from acoustically similar sources. To bridge this gap, we introduce MARS-Sep, a reinforcement learning framework that reformulates separation as decision making. Instead of simply regressing ground-truth masks, MARS-Sep learns a factorized Beta mask policy that is optimized by a clipped trust-region surrogate with entropy regularization and group-relative advantage normalization. Concretely, we sample masks from a frozen old policy, reconstruct waveforms, and update the current policy using clipped importance ratios-yielding substantially more stable and sample-efficient learning. Multimodal rewards, derived from an audio-text-vision encoder, directly incentivize semantic consistency with query prompts. We further propose a progressive alignment scheme to fine-tune this encoder, boosting its cross-modal discriminability and improving reward faithfulness. Extensive experiments on multiple benchmarks demonstrate consistent gains in Text-, Audio-, and Image-Queried separation, with notable improvements in signal metrics and semantic quality.},
-  year={2025},
-  primaryClass={cs.LG},
-  selected={true},
-  preview={mars-sep.png},
-  url={https://arxiv.org/abs/2510.10509},
-  arxiv={2510.10509},
-  pdf={MARS_Sep.pdf},
-  html={https://mars-sep.github.io/},
 }
 
 @article{PhysRev.47.777,
@@ -119,57 +89,4 @@
   additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
   annotation={* Example use of superscripts<br>† Albert Einstein},
   inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
