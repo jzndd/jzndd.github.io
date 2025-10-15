@@ -1,9 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"Under Review":
+  url:
+  color: "#DA70D6"
+  
+"NeurIPS 2024 Poster":
+  url: https://neurips.cc/Conferences/2024
   color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
