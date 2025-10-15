@@ -1,3 +1,13 @@
-<div class="publications">
+{% comment %} <div class="publications">
   {% bibliography --group_by none --query @*[selected=true]* %}
+</div> {% endcomment %}
+
+<div class="publications">
+
+  <h3>🧩 Publications</h3>
+  {% bibliography --group_by none --query @*[selected=true && status=publication]* %}
+
+  <h3>📝 Preprints</h3>
+  {% bibliography --group_by none --query @*[selected=true && status=preprint]* %}
+
 </div>
