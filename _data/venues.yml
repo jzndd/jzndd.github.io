@@ -9,3 +9,7 @@
 "TSMC":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021
   color: "#00369f"
+
+"ICLR 2026":
+  url: https://iclr.cc/Conferences/2026
+  color: "#00369f"

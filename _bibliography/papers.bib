@@ -71,13 +71,13 @@
   status={preprint}
 }
 
-@unpublished{zhang2025marssep,
-  abbr={Under Review},
+@inproceedings{zhang2025marssep,
+  abbr={ICLR 2026},
   title={MARS-Sep: Multimodal-Aligned Reinforced Sound Separation}, 
   author={Zhang, Zihan and Cheng, Xize and Jiang, Zhennan and Fu, Dongjie and Chen, Jingyuan and Zhao, Zhou and Jin, Tao},
-  journal={Under Review},
+  booktitle={International Conference on Learning Representations (ICLR)},
   abstract={Universal sound separation faces a fundamental misalignment: models optimized for low-level signal metrics often produce semantically contaminated outputs, failing to suppress perceptually salient interference from acoustically similar sources. To bridge this gap, we introduce MARS-Sep, a reinforcement learning framework that reformulates separation as decision making. Instead of simply regressing ground-truth masks, MARS-Sep learns a factorized Beta mask policy that is optimized by a clipped trust-region surrogate with entropy regularization and group-relative advantage normalization. Concretely, we sample masks from a frozen old policy, reconstruct waveforms, and update the current policy using clipped importance ratios-yielding substantially more stable and sample-efficient learning. Multimodal rewards, derived from an audio-text-vision encoder, directly incentivize semantic consistency with query prompts. We further propose a progressive alignment scheme to fine-tune this encoder, boosting its cross-modal discriminability and improving reward faithfulness. Extensive experiments on multiple benchmarks demonstrate consistent gains in Text-, Audio-, and Image-Queried separation, with notable improvements in signal metrics and semantic quality.},
-  year={2025},
+  year={2026},
   primaryClass={cs.LG},
   selected={true},
   preview={mars-sep.png},
@@ -85,5 +85,21 @@
   arxiv={2510.10509},
   pdf={MARS_Sep.pdf},
   html={https://mars-sep.github.io/},
+  status={published}
+}
+
+@unpublished{jiang2026wovr,
+  abbr={Under Review},
+  title={WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL}, 
+  author={Jiang, Zhennan and Zhou, Shangqing and Jiang, Yutong and Huang, Zefang and Wei, Mingjie and Chen, Yuhui and Zhou, Tianxing and Guo, Zhen and Lin, Hao and Zhang, Quanlu and Wang, Yu and Li, Haoran and Yu, Chao and Zhao, Dongbin},
+  journal={Under Review},
+  abstract={Reinforcement learning (RL) promises to unlock capabilities beyond imitation learning for Vision-Language-Action (VLA) models, but its requirement for massive real-world interaction prevents direct deployment on physical robots. Recent work attempts to use learned world models as simulators for policy optimization, yet closed-loop imagined rollouts inevitably suffer from hallucination and long-horizon error accumulation. Such errors do not merely degrade visual fidelity; they corrupt the optimization signal, encouraging policies to exploit model inaccuracies rather than genuine task progress. We propose WoVR, a reliable world-model-based reinforcement learning framework for post-training VLA policies. Instead of assuming a faithful world model, WoVR explicitly regulates how RL interacts with imperfect imagined dynamics. It improves rollout stability through a controllable action-conditioned video world model, reshapes imagined interaction to reduce effective error depth via Keyframe-Initialized Rollouts, and maintains policy-simulator alignment through World Model-Policy co-evolution. Extensive experiments on LIBERO benchmarks and real-world robotic manipulation demonstrate that WoVR enables stable long-horizon imagined rollouts and effective policy optimization, improving average LIBERO success from 39.95% to 69.2% (+29.3 points) and real-robot success from 61.7% to 91.7% (+30.0 points). These results show that learned world models can serve as practical simulators for reinforcement learning when hallucination is explicitly controlled.},
+  year={2026},
+  primaryClass={cs.LG},
+  selected={true},
+  preview={wovr.png},
+  url={https://arxiv.org/abs/2602.13977},
+  arxiv={2602.13977},
+  pdf={WoVR.pdf},
   status={preprint}
 }
