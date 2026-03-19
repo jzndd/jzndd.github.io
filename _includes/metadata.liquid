@@ -192,10 +192,6 @@
     {% capture link %}https://www.pinterest.com/{{ site.pinterest_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
-  {% if site.unsplash_id %}
-    {% capture link %}https://unsplash.com/@{{ site.unsplash_id }}{% endcapture %}
-    {% assign sameaslinks = sameaslinks | push: link %}
-  {% endif %}
   {% if site.instagram_id %}
     {% capture link %}https://instagram.com/{{ site.instagram_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}

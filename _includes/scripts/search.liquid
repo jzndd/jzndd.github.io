@@ -450,16 +450,6 @@
             },
           },
         {%- endif -%}
-        {%- if site.unsplash_id -%}
-          {
-            id: 'socials-unsplash',
-            title: 'Unsplash',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://unsplash.com/@{{ site.unsplash_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
         {%- if site.instagram_id -%}
           {
             id: 'socials-instagram',
