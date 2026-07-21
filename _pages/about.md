@@ -31,35 +31,3 @@ My research focuses on building **reliable, efficient, and generalizable learnin
 </div>
 
 </div>
-
-<section class="home-section invited-talks" aria-labelledby="invited-talks-title">
-  <div class="section-heading">
-    <div>
-      <p class="section-kicker">Sharing &amp; Community</p>
-      <h2 id="invited-talks-title">Invited Talks</h2>
-    </div>
-  </div>
-
-  <div class="talk-list">
-    <a class="talk-card" href="https://mp.weixin.qq.com/s/09uCm7mvLzV1bllFoSAgyw">
-      <time datetime="2026-03-28"><span>MAR</span><strong>28</strong><small>2026</small></time>
-      <span class="talk-copy">
-        <span class="talk-series">RLinf Workshop · WoVR</span>
-        <strong class="talk-title">RLinf Workshop (WoVR)</strong>
-        <span class="talk-host">Invited by <b>具身智能之心</b></span>
-      </span>
-      <span class="talk-link" aria-hidden="true">Talk ↗</span>
-    </a>
-
-    <a class="talk-card" href="https://mp.weixin.qq.com/s/ueU4rsaaMWHcBa-59zIj5A">
-      <time datetime="2026-02-27"><span>FEB</span><strong>27</strong><small>2026</small></time>
-      <span class="talk-copy">
-        <span class="talk-series">RLinf Series · WoVR</span>
-        <strong class="talk-title">RLinf 系列真机工作介绍 (WoVR)</strong>
-        <span class="talk-host">Invited by <b>Lumina Talk</b></span>
-      </span>
-      <span class="talk-link" aria-hidden="true">Talk ↗</span>
-    </a>
-
-  </div>
-</section>
