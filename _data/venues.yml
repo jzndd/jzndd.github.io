@@ -1,6 +1,14 @@
 "Under Review":
   url:
-  color: "#DA70D6"
+  color: "#64748b"
+
+"Science Robotics":
+  url: https://www.science.org/journal/scirobotics
+  color: "#b4233a"
+
+"RA-L 2026":
+  url: https://www.ieee-ras.org/publications/ra-l
+  color: "#00629b"
 
 "NeurIPS 2024 Poster":
   url: https://neurips.cc/Conferences/2024

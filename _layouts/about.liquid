@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
+<div class="post about-page">
+  <header class="post-header profile-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
@@ -58,10 +58,24 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <section class="home-section selected-publications" aria-labelledby="selected-publications-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Research</p>
+            <h2 id="selected-publications-title">Selected Publications</h2>
+          </div>
+          {% if site.scholar_userid %}
+            <a
+              class="section-link"
+              href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"
+              aria-label="View all publications on Google Scholar"
+            >
+              Google Scholar ↗
+            </a>
+          {% endif %}
+        </div>
+        {% include selected_papers.liquid %}
+      </section>
     {% endif %}
 
     <!-- Social -->

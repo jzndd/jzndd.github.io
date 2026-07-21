@@ -37,30 +37,33 @@
   status={published}
 }
 
-@unpublished{lei2025RL-100,
-  abbr={Under Review},
+@article{lei2025RL-100,
+  abbr={Science Robotics},
   title={RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning},
   author={Lei*, Kun and Li*, Huanyu and Yu*, Dongjie and Wei*, Zhenyu and Guo, Lingxiao and Jiang, Zhennan and Wang, Ziyu and Liang, Shiyu and Xu, Huazhe},
-  journal={Under Review},
-  abstract={Real-world robotic manipulation in homes and factories demands reliability, efficiency, and robustness that approach or surpass skilled human operators. We present RL-100, a real-world reinforcement learning training framework built on diffusion visuomotor policies trained bu supervised learning. RL-100 introduces a three-stage pipeline. First, imitation learning leverages human priors. Second, iterative offline reinforcement learning uses an Offline Policy Evaluation procedure, abbreviated OPE, to gate PPO-style updates that are applied in the denoising process for conservative and reliable improvement. Third, online reinforcement learning eliminates residual failure modes. An additional lightweight consistency distillation head compresses the multi-step sampling process in diffusion into a single-step policy, enabling high-frequency control with an order-of-magnitude reduction in latency while preserving task performance. The framework is task-, embodiment-, and representation-agnostic and supports both 3D point clouds and 2D RGB inputs, a variety of robot platforms, and both single-step and action-chunk policies. We evaluate RL-100 on seven real-robot tasks spanning dynamic rigid-body control, such as Push-T and Agile Bowling, fluids and granula pouring, deformable cloth folding, precise dexterous unscrewing, and multi-stage orange juicing. RL-100 attains 100% success across evaluated trials for a total of 900 out of 900 episodes, including up to 250 out of 250 consecutive trials on one task. The method achieves near-human teleoperation or better time efficiency and demonstrates multi-hour robustness with uninterrupted operation lasting up to two hours. The resulting policies generalize zero-shot to novel dynamics with an average success of 92.5% and adapt in a few-shot fashion to significant task variations, reaching an average of 86.7% after one to three hours of additional training. These results suggest a practical path to deployment- ready robot learning by starting from human priors, aligning training objectives with human-grounded metrics, and reliably extending performance beyond human demonstrations},
-  year={2025},
-  month={Oct},
+  journal={Science Robotics},
+  abstract={Real-world robotic manipulation in homes and factories demands reliability, efficiency, and robustness that approach or surpass skilled human operators. We present RL-100, a real-world reinforcement learning training framework built on diffusion visuomotor policies trained by supervised learning. RL-100 introduces a three-stage pipeline. First, imitation learning leverages human priors. Second, iterative offline reinforcement learning uses an Offline Policy Evaluation procedure, abbreviated OPE, to gate PPO-style updates that are applied in the denoising process for conservative and reliable improvement. Third, online reinforcement learning eliminates residual failure modes. An additional lightweight consistency distillation head compresses the multi-step sampling process in diffusion into a single-step policy, enabling high-frequency control with an order-of-magnitude reduction in latency while preserving task performance. The framework is task-, embodiment-, and representation-agnostic and supports both 3D point clouds and 2D RGB inputs, a variety of robot platforms, and both single-step and action-chunk policies. We evaluate RL-100 on seven real-robot tasks spanning dynamic rigid-body control, such as Push-T and Agile Bowling, fluids and granular pouring, deformable cloth folding, precise dexterous unscrewing, and multi-stage orange juicing. RL-100 attains 100% success across evaluated trials for a total of 900 out of 900 episodes, including up to 250 out of 250 consecutive trials on one task. The method achieves near-human teleoperation or better time efficiency and demonstrates multi-hour robustness with uninterrupted operation lasting up to two hours. The resulting policies generalize zero-shot to novel dynamics with an average success of 92.5% and adapt in a few-shot fashion to significant task variations, reaching an average of 86.7% after one to three hours of additional training. These results suggest a practical path to deployment-ready robot learning by starting from human priors, aligning training objectives with human-grounded metrics, and reliably extending performance beyond human demonstrations},
+  year={2026},
+  note={Accepted for publication},
   primaryClass={cs.LG},
   selected={true},
   preview={RL-100.png},
+  url={https://arxiv.org/abs/2510.14830},
+  arxiv={2510.14830},
   pdf={RL-100.pdf},
   html={https://lei-kun.github.io/RL-100/},
-  status={preprint}
+  status={published}
 }
 
 
-@unpublished{jiang2025world4rl,
-  abbr={Under Review},
+@article{jiang2025world4rl,
+  abbr={RA-L 2026},
   title={World4RL: Diffusion World Models for Policy Refinement with Reinforcement Learning for Robotic Manipulation},
   author={Jiang, Zhennan and Liu, Kai and Qin, Yuxin and Tian, Shuai and Zheng, Yupeng and Zhou, Mingcai and Yu, Chao and Li, Haoran and Zhao, Dongbin},
-  journal={Under Review},
-  abstract={Robotic manipulation policies are commonly initialized through imitation learning, but their performance is limited by the scarcity and narrow coverage of expert data. Reinforcement learning can refine polices to alleviate this limitation, yet real-robot training is costly and unsafe, while training in simulators suffers from the sim-to-real gap. Recent advances in generative models have demonstrated remarkable capabilities in real-world simulation, with diffusion models in particular excelling at generation. This raises the question of how diffusion model-based world models can be combined to enhance pre-trained policies in robotic manipulation. In this work, we propose World4RL, a framework that employs diffusion-based world models as high-fidelity simulators to refine pre-trained policies entirely in imagined environments for robotic manipulation. Unlike prior works that primarily employ world models for planning, our framework enables direct end-to-end policy optimization. World4RL is designed around two principles: pre-training a diffusion world model that captures diverse dynamics on multi-task datasets and refining policies entirely within a frozen world model to avoid online real-world interactions. We further design a two-hot action encoding scheme tailored for robotic manipulation and adopt diffusion backbones to improve modeling fidelity. Extensive simulation and real-world experiments demonstrate that World4RL provides high-fidelity environment modeling and enables consistent policy refinement, yielding significantly higher success rates compared to imitation learning and other baselines.},
-  year={2025},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  abstract={Robotic manipulation policies are commonly initialized through imitation learning, but their performance is limited by the scarcity and narrow coverage of expert data. Reinforcement learning can refine policies to alleviate this limitation, yet real-robot training is costly and unsafe, while training in simulators suffers from the sim-to-real gap. Recent advances in generative models have demonstrated remarkable capabilities in real-world simulation, with diffusion models in particular excelling at generation. This raises the question of how diffusion model-based world models can be combined to enhance pre-trained policies in robotic manipulation. In this work, we propose World4RL, a framework that employs diffusion-based world models as high-fidelity simulators to refine pre-trained policies entirely in imagined environments for robotic manipulation. Unlike prior works that primarily employ world models for planning, our framework enables direct end-to-end policy optimization. World4RL is designed around two principles: pre-training a diffusion world model that captures diverse dynamics on multi-task datasets and refining policies entirely within a frozen world model to avoid online real-world interactions. We further design a two-hot action encoding scheme tailored for robotic manipulation and adopt diffusion backbones to improve modeling fidelity. Extensive simulation and real-world experiments demonstrate that World4RL provides high-fidelity environment modeling and enables consistent policy refinement, yielding significantly higher success rates compared to imitation learning and other baselines.},
+  year={2026},
+  note={Accepted for publication},
   primaryClass={cs.LG},
   selected={true},
   preview={world4rl.png},
@@ -68,7 +71,7 @@
   arxiv={2509.19080},
   pdf={world4rl.pdf},
   html={https://world4rl.github.io/},
-  status={preprint}
+  status={published}
 }
 
 @inproceedings{zhang2025marssep,
@@ -86,6 +89,41 @@
   pdf={MARS_Sep.pdf},
   html={https://mars-sep.github.io/},
   status={published}
+}
+
+@unpublished{yu2026zprl,
+  abbr={Under Review},
+  title={Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning},
+  author={Yu*, Dongjie and Lei*, Kun and Jiang, Zhennan and Pan, Jia and Xu, Huazhe},
+  journal={Under Review},
+  abstract={Z-Perturbation Reinforcement Learning (ZPRL) steers pre-trained robot policies through compact bottleneck latents instead of applying residuals directly in action space. The frozen base policy is adapted online through learned latent perturbations, improving sample efficiency and producing smoother behavior across simulation and four real-world manipulation tasks.},
+  year={2026},
+  month={May},
+  primaryClass={cs.RO},
+  selected={true},
+  preview={https://manutdmoon.github.io/ZPRL/static/images/overview.jpg},
+  url={https://arxiv.org/abs/2605.19919},
+  arxiv={2605.19919},
+  html={https://manutdmoon.github.io/ZPRL/},
+  code={https://github.com/manutdmoon/ZPRL},
+  status={preprint}
+}
+
+@unpublished{chen2026poco,
+  abbr={Under Review},
+  title={Posterior Optimization with Clipped Objective for Bridging Efficiency and Stability in Generative Policy Learning},
+  author={Chen, Yuhui and Li, Haoran and Jiang, Zhennan and Qin, Yuxing and Wan, Yuxuan and Liu, Weiheng and Zhao, Dongbin},
+  journal={Under Review},
+  abstract={Posterior Optimization with Clipped Objective (POCO) casts generative policy improvement as likelihood-free posterior inference. Its implicit expectation-maximization procedure, clipped surrogate objective, and offline-to-online training paradigm combine efficient data reuse with stable updates for diffusion, flow-matching, and vision-language-action policies.},
+  year={2026},
+  month={Apr},
+  primaryClass={cs.RO},
+  selected={true},
+  preview={https://cccedric.github.io/assets/img/publication_preview/POCO.png},
+  url={https://arxiv.org/abs/2604.01860},
+  arxiv={2604.01860},
+  html={https://cccedric.github.io/poco/},
+  status={preprint}
 }
 
 @unpublished{jiang2026wovr,
