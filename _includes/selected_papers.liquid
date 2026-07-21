@@ -9,13 +9,13 @@
     <h3>Peer-reviewed &amp; Accepted</h3>
     <span>Published research</span>
   </div>
-  {% bibliography --group_by none --sort_by year --order descending --query @*[selected=true && status=published]* %}
+  {% bibliography --group_by none --query @*[selected=true && status=published]* %}
 
   <div class="publication-group-heading">
     <h3>Preprints &amp; Under Review</h3>
     <span>Latest work</span>
   </div>
-  {% bibliography --group_by none --sort_by year --order descending --query @*[selected=true && status=preprint]* %}
+  {% bibliography --group_by none --query @*[selected=true && status=preprint]* %}
 
   <div class="publication-group-heading invited-talks-heading">
     <h3>Invited Talks</h3>
