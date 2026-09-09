@@ -126,18 +126,19 @@
   status={preprint}
 }
 
-@unpublished{jiang2026wovr,
-  abbr={Under Review},
+@inproceedings{jiang2026wovr,
+  abbr={CoRL 2026},
   title={WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL},
   author={Jiang, Zhennan and Zhou, Shangqing and Jiang, Yutong and Huang, Zefang and Wei, Mingjie and Chen, Yuhui and Zhou, Tianxing and Guo, Zhen and Lin, Hao and Zhang, Quanlu and Wang, Yu and Li, Haoran and Yu, Chao and Zhao, Dongbin},
-  journal={Under Review},
+  booktitle={Conference on Robot Learning (CoRL)},
   abstract={Reinforcement learning (RL) promises to unlock capabilities beyond imitation learning for Vision-Language-Action (VLA) models, but its requirement for massive real-world interaction prevents direct deployment on physical robots. Recent work attempts to use learned world models as simulators for policy optimization, yet closed-loop imagined rollouts inevitably suffer from hallucination and long-horizon error accumulation. Such errors do not merely degrade visual fidelity; they corrupt the optimization signal, encouraging policies to exploit model inaccuracies rather than genuine task progress. We propose WoVR, a reliable world-model-based reinforcement learning framework for post-training VLA policies. Instead of assuming a faithful world model, WoVR explicitly regulates how RL interacts with imperfect imagined dynamics. It improves rollout stability through a controllable action-conditioned video world model, reshapes imagined interaction to reduce effective error depth via Keyframe-Initialized Rollouts, and maintains policy-simulator alignment through World Model-Policy co-evolution. Extensive experiments on LIBERO benchmarks and real-world robotic manipulation demonstrate that WoVR enables stable long-horizon imagined rollouts and effective policy optimization, improving average LIBERO success from 39.95% to 69.2% (+29.3 points) and real-robot success from 61.7% to 91.7% (+30.0 points). These results show that learned world models can serve as practical simulators for reinforcement learning when hallucination is explicitly controlled.},
   year={2026},
+  note={Accepted for publication},
   primaryClass={cs.LG},
   selected={true},
   preview={wovr.png},
   url={https://arxiv.org/abs/2602.13977},
   arxiv={2602.13977},
   pdf={WoVR.pdf},
-  status={preprint}
+  status={published}
 }
